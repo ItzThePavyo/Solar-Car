@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff7ee;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.hero-text h1 {
+  color: #ff9800;
+  font-size: 2em;
+}
+
+.hero img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background: #fff7ee;
+  font-weight: bold;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.play-button {
+  font-size: 30px;
+  background: #1a2e3b;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+}
+
+.team {
+  background: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.member1 .photo1 {
+  width: 80px;
+  height: 80px;
+  background-image: url(Tom.jpg);
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.member2 .photo2 {
+  width: 80px;
+  height: 80px;
+  background-image: url(Lauli.jpg);
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.member3 .photo3 {
+  width: 80px;
+  height: 80px;
+  background-image: url(Trisi.jpg);
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.member4 .photo4 {
+  width: 80px;
+  height: 80px;
+  background-image: url(Domi.jpg);
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+
+
+.sponsors {
+  background-color: #eee;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.sponsor1 {
+  width: 60px;
+  height: 60px;
+  background-image: url(Matteo.png);
+  background-position: center;
+  background-size: 115%;
+  border-radius: 10px;
+}
+
+.sponsor2 {
+  width: 60px;
+  height: 60px;
+  background-image: url(Matte0.png);
+  background-position: center;
+  background-size: 100%;
+  border-radius: 10px;
+}
+
+.sponsor3 {
+  width: 60px;
+  height: 60px;
+  background-image: url(Jan.png);
+  background-position: center;
+  background-size: 115%;
+  border-radius: 10px;
+}
+
+.sponsor4 {
+  width: 60px;
+  height: 60px;
+  background-image: url(Gassi.jpg);
+  background-position: center;
+  background-size: 115%;
+  border-radius: 10px;
+}
+
+.sponsor5 {
+  width: 60px;
+  height: 60px;
+  background-image: url(3.jpg);
+  background-position: center;
+  background-size: 115%;
+  border-radius: 10px;
+}
+
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+}
+
+footer nav {
+  margin-bottom: 10px;
+}
+
+footer nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+}
